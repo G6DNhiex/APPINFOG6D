@@ -1,0 +1,54 @@
+.slogan{
+	text-align: center;
+	border: 2px double black;
+	margin-left: 35%;
+	width: 50%;
+	margin-top: -7%;
+	background-color:#FFDAB9 ;
+
+}
+#logo{
+	width: 20%;
+	float:top;
+	margin-left: 10%;
+	margin-top: 0%;
+}
+
+header{
+	background-color: #FFF8DC;
+	height: 30%;
+	font-family: 'Calibri';
+}
+
+ul
+{
+	background-color: #F5F5F5;
+		border: 2px solid black;
+		list-style-type: none;
+		text-align: center;
+		width: 53%;
+		padding: 9px;
+		
+		margin-top: 3%;
+		margin-left: 20%;
+		font-family: 'Calibri';
+}
+li{
+	display: inline-block;
+	margin-right: 2%;
+	margin-left: 2%;
+
+}
+.sedeconnecter{
+	margin-left: 77%;
+	margin-top: -5%;
+}
+.panier{
+	margin-left: 90%;
+}
+.recherche{
+
+		margin-left: 25%;
+}
+
+
