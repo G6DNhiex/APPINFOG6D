@@ -1,10 +1,17 @@
 .seconnecter{
 	margin-left: 20%;
+	margin-top: 5%
+	
 	
 
 }
 .pasencoreinscrit{
 	float: right;
-	margin-right: 20%;
-	margin-top: -15%
+	margin-right: 15%;
+	margin-top: -30%
+}
+
+.separation{
+	float: center;
+	margin-top: -13%
 }
