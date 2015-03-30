@@ -1,8 +1,13 @@
+<?php
+function top()
+{
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8" />
-            <link rel="stylesheet" href="accueilebaie.css" />
+            <link rel="stylesheet" href="style.css" />
         <title>Accueil</title>
     </head>
     <header>
@@ -43,7 +48,35 @@
     </header>
 
     <body>
-    
 
-    </body>
+<?php
+}
+
+function bottom()
+{
+?>
+
+<div class="aide">
+<a href='index.html'><img src="question.png" alt="aide"></a>
+</div>
+<div class="footer">
+<a href='index.html'>Mentions légales</a> - <a href='index.html'>Contact </a>
+</div>
+
+</body>
 </html>
+<?php
+}
+
+
+function valid($s)
+{
+	echo '<p class="valid">'.$s.'</p>';
+}
+
+function error($s)
+{
+	echo '<p class="error">'.$s.'</p>';
+}
+
+?>
