@@ -17,14 +17,16 @@ function top()
     </p>
         <nav>
             <ul>
-                <li>Accueil</li>
-                <li>Déposer une annonce</li>
-                <li>Offres</li>
-                <li>Demandes</li>
-                <li>Mon compte</li>
-                <li>Forum</li>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Déposer une annonce</a></li>
+                <li><a href="#">Offres</a></li>
+                <li><a href="#">Demandes</a></li>
+                <li><a href="#">Mon compte</a></li>
+                <li><a href="#">Forum</a></li>
             </ul>
-        <p class="sedeconnecter"><img src="deco2.png" alt="Se connecter" id="login"><img src="shopping232-2.png" alt="Mon panier" id="panier"><img src="black218.png" alt="Messagerie" id="messagerie"></p>
+        <p class="sedeconnecter"><a href="#"><img src="deco2.png" alt="Se connecter" id="login"></a>
+		<a href="#"><img src="shopping232-2.png" alt="Mon panier" id="panier"></a>
+		<a href="#"><img src="black218.png" alt="Messagerie" id="messagerie"></a></p>
 
     </nav>
             <form method="post" action="traitement.php">
@@ -40,11 +42,11 @@ function top()
                      </select>
 
                      <input type="search" name="rechercheville" placeholder="Ville/Code Postal" size="15"/>
-
+					<button onclick="ClicBouton();">Rechercher</button>
 
                 </p>
             </form>
-    <HR color="black" height="5%">      
+    <HR class="trait" color="black" height="5%">      
     </header>
 
     <body>
