@@ -1,16 +1,60 @@
-.seconnecter{
-	margin-left: 20%;
-	margin-top: 5%
-	text-align: justify;
 
-}
 .pasencoreinscrit{
 	float: right;
 	margin-right: 15%;
-	margin-top: -32%
+	margin-top: -35%
 }
 
 .separation{
 	float: center;
 	margin-top: -13%
+}
+#login{
+	margin-left: 8%;
+}
+#pass{
+	margin-left: 3.5%;
+}
+.seconnecter{
+	margin-left: 20%;
+	margin-top: 5%;
+}
+.titleconnect{
+	margin-left: 12%;
+}
+.titleinscrit{
+	margin-left: 10%;
+}
+.mdpoublie{
+	margin-left: 20%;
+}
+#nom{
+	margin-left: 35%;
+}
+#prenom{
+	margin-left: 30.5%;
+}
+#jour{
+	margin-left: 12%
+}
+#mail{
+	margin-left: 21%;
+}
+#adresse{
+	margin-left: 30%;
+}
+#ville{
+	margin-left: 35%;
+}
+#postal{
+	margin-left: 23%;
+}
+#tel{
+	margin-left: 25%;
+}
+#loginI{
+	margin-left: 33%;
+}
+#passI{
+	margin-left: 21%;
 }

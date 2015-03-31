@@ -13,28 +13,33 @@ top();
 ?>
 <section class="seconnecter">
     
-    <h1>Se connecter</h1>
+    <h1 class="titleconnect">Se connecter</h1>
+  </br>
     <form method="post" action="traitement.php">
    <p>
         <label for="login">Login</label>
-        <SPACER size="10">
        <input type="text" name="login" id="login" size="25"/></br>
        <label for="pass">Mot de passe</label>
-       <input type="password" name="pass" id="pass" size="20"/><br/>
+       <input type="password" name="pass" id="pass" size="25"/>
+      <br/>
+     </br>
        <input type="checkbox" name="retenirmdp" id="retenirmdp" /> <label for="retenirmdp">Retenir le mot de passe</label> 
    </p>
 </form>
-        <p class="mdpoublie">Mot de passe oublié?</p>
+        <p class="mdpoublie"><a href="#">Mot de passe oublié?</a></p>
         <input type="submit" value="Valider" />
     </section>
+
     <hr class="separation" color="black" width="0.5px" size="350px" />
+
     <section class="pasencoreinscrit">
-        <h1> Pas encore inscrit ?</h1>
+        <h1 class="titleinscrit"> Pas encore inscrit ?</h1>
+      </br>
         
         <label for="nom">Nom</label>
-       <input type="text" name="nom" id="nom"/></br>
+       <input type="text" name="nom" id="nom" size="30"/></br>
        <label for="prenom">Prénom</label>
-       <input type="text" name="prenom" id="prenom"/></br>
+       <input type="text" name="prenom" id="prenom"size="30"/></br>
        <label for="naissance">Date de naissance</label>
        <select name="jour" id="jour">
                         <option value="1">1</option>
@@ -197,21 +202,30 @@ top();
 <option value="1905">1905</option>
         </select></br>
          <label for="mail">Adresse mail</label>
-       <input type="email" name="mail" id="mail"/></br>
+       <input type="email" name="mail" id="mail"size="30"/></br>
+
        <label for="adresse">Adresse</label>
-       <input type="text" name="adresse" id="adresse"/></br>
+       <input type="text" name="adresse" id="adresse"size="30"/></br>
+
        <label for="ville">Ville</label>
-       <input type="text" name="ville" id="ville"/></br>
+       <input type="text" name="ville" id="ville"size="30"/></br>
+
        <label for="postal">Code postal</label>
-       <input type="text" name="postal" id="postal"/></br>
+       <input type="text" name="postal" id="postal"size="10"/></br>
+
        <label for="tel">Téléphone</label>
-       <input type="tel" name="tel" id="tel"/></br>
+       <input type="tel" name="tel" id="tel"size="30"/></br>
+
         <label for="login">Login</label>
-        <input type="text" name="login" id="login"/></br>
+        <input type="text" name="loginI" id="loginI"size="30"/></br>
+
         <label for="pass">Mot de passe</label>
-       <input type="password" name="pass" id="pass" /><br/>
+       <input type="password" name="passI" id="passI" size="30"/><br/>
+
        <label for="pass">Vérification mot de passe</label>
-       <input type="password" name="pass" id="pass" /><br/>
+       <input type="password" name="passI1" id="passI1" size="30"/><br/>
+     </br>
+
         <input type="checkbox" name="condition" id="condition" />
          <label for="condition">J'accepte les conditions d'utilisation et la charte d'ebaie</label> </br>
          <input type="submit" value="Valider" />
