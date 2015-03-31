@@ -13,17 +13,20 @@ body
 	background-color:#FFDAB9 ;
 
 }
-#logo{
-	width: 20%;
-	float:top;
-	margin-left: 10%;
-	margin-top: 0%;
+#logo {
+  width: 20%;
+  float: top;
+  margin-left: 10%;
+  margin-top: -1%;
 }
 
-header{
-	background-color: #FFF8DC;
-	height: 30%;
-	font-family: 'Calibri';
+header {
+  background-color: #FFF8DC;
+  height: 2%;
+  font-family: 'Calibri';
+  border-bottom-color: black;
+  border-bottom: solid;
+  border-bottom-width: 2px;
 }
 
 ul {
@@ -51,9 +54,9 @@ li{
 .panier{
 	margin-left: 90%;
 }
-.recherche{
-
-		margin-left: 25%;
+.recherche {
+  margin-left: 25%;
+  margin-bottom: 0px;
 }
 
 .aide {
@@ -76,9 +79,4 @@ text-decoration:none;
 a:hover
 {
 text-decoration:underline;
-}
-
-.trait
-{
-  margin-top: -16px;
 }

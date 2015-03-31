@@ -1,9 +1,11 @@
 <?php
+
+ini_set('display_errors', 1);
+include 'class.Sql.php';
+
 function top()
 {
 ?>
-
-
     <header>
         <img src="logo.png" alt="Logo du site" id="logo">
 
@@ -39,8 +41,7 @@ function top()
 					<button onclick="ClicBouton();">Rechercher</button>
 
                 </p>
-            </form>
-    <HR class="trait" color="black" height="5%">      
+            </form>  
     </header>
 
     <body>
