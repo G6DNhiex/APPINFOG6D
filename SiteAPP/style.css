@@ -1,3 +1,9 @@
+body 
+{
+  display: block;
+  margin: auto;
+}
+
 .slogan{
 	text-align: center;
 	border: 2px double black;
@@ -20,28 +26,27 @@ header{
 	font-family: 'Calibri';
 }
 
-ul
-{
-	background-color: #F5F5F5;
-		border: 2px solid black;
-		list-style-type: none;
-		text-align: center;
-		width: 53%;
-		padding: 9px;
-		
-		margin-top: 3%;
-		margin-left: 20%;
-		font-family: 'Calibri';
+ul {
+  background-color: #F5F5F5;
+  border: 2px solid black;
+  list-style-type: none;
+  text-align: center;
+  width: 53%;
+  padding: 9px;
+  margin-top: 2%;
+  margin-left: 20%;
+  font-family: 'Calibri';
 }
+
 li{
 	display: inline-block;
 	margin-right: 2%;
 	margin-left: 2%;
 
 }
-.sedeconnecter{
-	margin-left: 77%;
-	margin-top: -5%;
+.sedeconnecter {
+  margin-left: 77%;
+  margin-top: -4%;
 }
 .panier{
 	margin-left: 90%;
@@ -54,7 +59,7 @@ li{
 .aide {
   float: right;
   margin-right: 126px;
-  margin-top: -45px;
+  margin-top: 10px;
 }
 
 .footer {
@@ -71,4 +76,9 @@ text-decoration:none;
 a:hover
 {
 text-decoration:underline;
+}
+
+.trait
+{
+  margin-top: -16px;
 }
