@@ -1,12 +1,9 @@
+<?php
+include 'functions.php';
 
-    
-
-    <?php 
-    include 'functions.php'
-     top();
-    ?>
-        
-        <section class="seconnecter">
+top();
+?>
+<section class="seconnecter">
     
     <h1>Se connecter</h1>
     <form method="post" action="traitement.php">
@@ -22,10 +19,7 @@
         <p class="mdpoublie">Mot de passe oublié?</p>
         <input type="submit" value="Valider" />
     </section>
-
-<hr class="separation" color="black" width="0.5px" size="350px" />
-
-
+    <hr class="separation" color="black" width="0.5px" size="350px" />
     <section class="pasencoreinscrit">
         <h1> Pas encore inscrit ?</h1>
         
@@ -67,7 +61,7 @@
                         <option value="30">30</option>
                         <option value="31">31</option>
                      </select>
-        <select name="mois" id="mois">
+                     <select name="mois" id="mois">
                         <option value="janvier">Janvier</option> 
                         <option value="fevrier">Février</option>
                         <option value="mars">Mars</option> 
@@ -194,7 +188,7 @@
 <option value="1906">1906</option>
 <option value="1905">1905</option>
         </select></br>
-        <label for="mail">Adresse mail</label>
+         <label for="mail">Adresse mail</label>
        <input type="email" name="mail" id="mail"/></br>
        <label for="adresse">Adresse</label>
        <input type="text" name="adresse" id="adresse"/></br>
@@ -218,6 +212,8 @@
 
 
     </section>
-    <?php
-    bottom();
-    ?>
+
+
+<?php
+bottom();
+?>
