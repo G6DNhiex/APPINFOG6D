@@ -1,0 +1,27 @@
+#achatfruit{
+	height:320px ;
+	width: 480px;
+
+}
+
+#images div {
+	display:inline-block;
+}
+
+#achatfruit {
+	margin-left:295px;
+	margin-top: 200px;
+
+}
+
+#conseilfruit{
+
+	margin-left:350px;
+	margin-top: 200px;
+}
+
+footer{
+
+	margin-top:200px;
+
+}
