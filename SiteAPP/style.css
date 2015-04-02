@@ -5,18 +5,18 @@ body
 }
 
 .slogan{
-	text-align: center;
-	border: 2px double black;
-	margin-left: 35%;
-	width: 50%;
-	margin-top: -7%;
-	background-color:#FFDAB9 ;
-
+  text-align: center;
+  border: 1px double black;
+  margin-left: 37%;
+  width: 50%;
+  font-size: 13px;
+  margin-top: -8%;
+  background-color: #F5F5F5;
 }
+
 #logo {
   width: 20%;
-  float: top;
-  margin-left: 10%;
+  margin-left: 4%;
   margin-top: -1%;
 }
 
@@ -26,18 +26,19 @@ header {
   font-family: 'Calibri';
   border-bottom-color: black;
   border-bottom: solid;
-  border-bottom-width: 2px;
+  border-bottom-width: 1px;
 }
 
 ul {
-  background-color: #F5F5F5;
-  border: 2px solid black;
+background-color: #FFDAB9;
+  border: 1px solid black;
   list-style-type: none;
   text-align: center;
   width: 53%;
   padding: 9px;
-  margin-top: 2%;
-  margin-left: 20%;
+  margin-top: 0%;
+  margin-bottom: 9px;
+  margin-left: 23%;
   font-family: 'Calibri';
 }
 
@@ -48,26 +49,42 @@ li{
 
 }
 .sedeconnecter {
-  margin-left: 77%;
-  margin-top: -4%;
+  margin-left: 80%;
+  margin-top: -44px;
 }
 .panier{
 	margin-left: 90%;
 }
 .recherche {
   margin-left: 25%;
-  margin-bottom: 0px;
+  margin-top: -10px;
+  margin-bottom: -3px;
 }
 
 .aide {
-  float: right;
-  margin-right: 126px;
-  margin-top: 10px;
+  position: absolute;
+  bottom: 45px;
+  right: 3%;
+  padding-top: 5px;
 }
 
-.footer {
+
+footer
+{
+width: 100%;
+  height: 27px;
+  background-color: rgb(87, 67, 67);
   text-align: center;
-  margin-top: 72px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding-top: 5px;
+
+}
+
+footer a
+{
+	color:white;
 }
 
 a
@@ -79,4 +96,31 @@ text-decoration:none;
 a:hover
 {
 text-decoration:underline;
+}
+
+.recherchea
+{
+color: black;
+  font-size: 12px;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+.check
+{
+  margin-top: 4px;
+  margin-left: 525px;
+  margin-bottom: -13px;
+}
+
+#social
+{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#social a:hover
+{
+	opacity:0.8;
 }

@@ -39,6 +39,12 @@ function top()
 
                      <input type="search" name="rechercheville" placeholder="Ville/Code Postal" size="15"/>
 					<button onclick="ClicBouton();">Rechercher</button>
+					<br />
+					<div class="check">
+					<input type="checkbox" name="frites" id="frites" /> <label for="frites">Achat</label>
+					<input type="checkbox" name="frites" id="frites" /> <label for="frites">Echange</label>
+					<a class="recherchea" href="#">Recherche avancée</a>
+					</div>
 
                 </p>
             </form>  
@@ -56,9 +62,20 @@ function bottom()
 <div class="aide">
 <a href='index.html'><img src="question.png" alt="aide"></a>
 </div>
-<div class="footer">
-<a href='index.html'>Mentions légales</a> - <a href='index.html'>Contact </a>
+
 </div>
+<footer>
+			<a href='index.html'>Mentions légales</a> - <a href='index.html'>Contact </a>
+			<div id="social">
+				<a href="#" target="_blank"><img src="img/social/fb.png" alt="Facebook" title="Facebook" /></a>
+				<a href="#" target="_blank"><img src="img/social/google.png" alt="Google +" title="Google +" /></a>
+				<a href="#" target="_blank"><img src="img/social/tw.png" alt="Twitter" title="Twitter" /></a>
+				<a href="#" target="_blank"><img src="img/social/pinterest.png" alt="Pinterest" title="Pinterest" /></a>
+				<a href="#" target="_blank"><img src="img/social/insta.png" alt="Instagram" title="Instagram" /></a>
+				<a href="#" target="_blank"><img src="img/social/tumblr.png" alt="Tumblr" title="Tumblr" /></a>
+			</div>
+
+</footer>
 
 </body>
 </html>
