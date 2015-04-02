@@ -1,4 +1,6 @@
-
+body{
+	font-family: "Calibri";
+}
 .pasencoreinscrit{
 	float: right;
 	margin-right: 15%;
@@ -13,7 +15,7 @@
 	margin-left: 8%;
 }
 #pass{
-	margin-left: 3.5%;
+	margin-left: 2.8%;
 }
 .seconnecter{
 	margin-left: 20%;
@@ -32,7 +34,7 @@
 	margin-left: 35%;
 }
 #prenom{
-	margin-left: 30.5%;
+	margin-left: 30%;
 }
 #jour{
 	margin-left: 12%
@@ -41,7 +43,7 @@
 	margin-left: 21%;
 }
 #adresse{
-	margin-left: 30%;
+	margin-left: 29%;
 }
 #ville{
 	margin-left: 35%;
@@ -53,8 +55,14 @@
 	margin-left: 25%;
 }
 #loginI{
-	margin-left: 33%;
+	margin-left: 34%;
 }
 #passI{
-	margin-left: 21%;
+	margin-left: 20%;
+}
+#valid{
+	margin-left: 25%;
+}
+#validI{
+	margin-left: 85%;
 }

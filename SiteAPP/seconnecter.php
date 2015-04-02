@@ -27,7 +27,7 @@ top();
    </p>
 </form>
         <p class="mdpoublie"><a href="#">Mot de passe oublié?</a></p>
-        <input type="submit" value="Valider" />
+        <input type="submit" id="valid" value="Valider" />
     </section>
 
     <hr class="separation" color="black" width="0.5px" size="350px" />
@@ -228,7 +228,8 @@ top();
 
         <input type="checkbox" name="condition" id="condition" />
          <label for="condition">J'accepte les conditions d'utilisation et la charte d'ebaie</label> </br>
-         <input type="submit" value="Valider" />
+       </br>
+         <input type="submit" id="validI" value="Valider" />
        
 
 
