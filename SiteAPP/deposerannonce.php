@@ -47,6 +47,16 @@ top();
 			<input type="checkbox" name="vendre" id="vendre"><label for="vendre">Vendre</label>
 			<input type="checkbox" name="echange" id="echange"><label for="echange">Echange</label>
 		</p>
+		<p class="quantite">
+			<label for="quantite">Quantité max</label></br>
+			<input type="text" name="quantite" id="quantite" size="15"/>
+		</p>
+		<p class="prix">
+			<label for="prix">Prix</label></br>
+			<input type="text" name="prix" id="prix" placeholder="€" size="15"/>
+		</p>
+	</br>
+	<input type="submit" name="valider" id="valider" value="Valider"/>
 		</form>
 <?php
 bottom();
