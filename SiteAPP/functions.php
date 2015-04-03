@@ -3,9 +3,21 @@
 
 
 
-function top()
+function top($title = 'Ebaie', $suite = '')
 {
+	if ($title != 'Ebaie')
+		$title = 'Ebaie - '.$title; 
 ?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+            <link rel="stylesheet" href="style.css" />
+            <?php echo $suite; ?>
+        <title><?php echo $title; ?></title>
+ <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    </head>
     <header>
         <img src="logo.png" alt="Logo du site" id="logo">
 

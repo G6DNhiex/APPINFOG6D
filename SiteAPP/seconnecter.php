@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-            <link rel="stylesheet" href="style.css" />
-            <link rel="stylesheet" href="seconnecter.css" />
-        <title>Se connecter</title>
-    </head>
 <?php
 include 'functions.php';
 
-top();
+top('Se connecter', '<link rel="stylesheet" href="seconnecter.css" />');
 ?>
 
 
@@ -78,7 +70,12 @@ top();
                         <option value="31">31</option>
                      </select>
                      <select name="mois" id="mois">
-                        <option value="janvier">Janvier</option> 
+<?php
+$months = array('janvier', 'février');
+foreach ($months as $month)
+	echo '<option value="'.$month.'">'.ucfirst($month).'</option>';
+/*
+                        <option value="janvier">Janvier</option>
                         <option value="fevrier">Février</option>
                         <option value="mars">Mars</option> 
                         <option value="avril">Avril</option> 
@@ -90,8 +87,18 @@ top();
                         <option value="octobre">Octobre</option>
                         <option value="novembre">Novembre</option>  
                         <option value="decembre">Décembre</option>
+*/
+?>
                     </select>
         <select name="annee" id="annee">
+<?php
+for ($i = 2015; $i >= 1905; $i--)
+	echo '<option value="'.$i.'">'.$i.'</option>';
+
+/*
+************************************************
+* Le code suivant est à garder comme souvenir des débuts de Florence (lol).
+************************************************
 <option value="2015">2015</option>
 <option value="2014">2014</option>
 <option value="2013">2013</option>
@@ -203,6 +210,8 @@ top();
 <option value="1907">1907</option>
 <option value="1906">1906</option>
 <option value="1905">1905</option>
+*/
+?>
         </select></br>
          <label for="mail">Adresse mail</label>
        <input type="email" name="mail" id="mail"size="30"/></br>

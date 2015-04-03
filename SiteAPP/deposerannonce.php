@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-            <link rel="stylesheet" href="style.css" />
-            <link rel="stylesheet" href="deposerannonce.css"/>
-        <title>Déposer une annonce</title>
-    </head>
-
 <?php 
 include 'functions.php';
-top();
+top('Déposer une annonce', '<link rel="stylesheet" href="deposerannonce.css"/>');
 ?>
 			<form method="post" action="traitement.php">
 			<p class="offredemande">
