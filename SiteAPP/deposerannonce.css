@@ -2,8 +2,11 @@ body{
 	font-family: "calibri";
 }
 .offredemande{
-	margin-left: 45%;
+	margin-left: 40%;
 	margin-top: 3%;
+}
+#demande{
+	margin-left: 5%;
 }
 .fl{
 	margin-left: 35%;

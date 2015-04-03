@@ -11,6 +11,8 @@ include 'functions.php';
 
 top();
 ?>
+
+
 <section class="seconnecter">
     
     <h1 class="titleconnect">Se connecter</h1>
@@ -32,10 +34,11 @@ top();
 
     <hr class="separation" color="black" width="0.5px" size="350px" />
 
+
     <section class="pasencoreinscrit">
         <h1 class="titleinscrit"> Pas encore inscrit ?</h1>
       </br>
-        
+        <form method="post" action="traitementinscription.php">
         <label for="nom">Nom</label>
        <input type="text" name="nom" id="nom" size="30"/></br>
        <label for="prenom">Prénom</label>
@@ -233,7 +236,7 @@ top();
        
 
 
-
+       </form>
     </section>
 
 
