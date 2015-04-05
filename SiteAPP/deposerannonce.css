@@ -1,0 +1,46 @@
+body{
+	font-family: "calibri";
+}
+.offredemande{
+	margin-left: 40%;
+	margin-top: 3%;
+}
+#demande{
+	margin-left: 5%;
+}
+.fl{
+	margin-left: 35%;
+}
+#categorie{
+
+	margin-left: 8%;
+}
+#variete{
+	margin-left: 8%;
+}
+.titre{
+	margin-left: 30%;
+}
+.description{
+	margin-left: 30%;
+}
+#casedescription{
+	width: 51%;
+	height: 100px;
+}
+.vendre{
+	margin-left: 30%;
+}
+#echange{
+	margin-left: 5%;
+}
+.quantite{
+	margin-left: 30%;
+}
+.prix{
+	margin-left: 45%;
+	margin-top: -4.5%;
+}
+#valider{
+	margin-left: 65%;
+}

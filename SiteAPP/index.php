@@ -12,7 +12,7 @@ include 'functions.php';
 top();
 ?>
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br />
 
 <?php
 bottom();
