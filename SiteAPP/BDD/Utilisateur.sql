@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  localhost:8889
--- Généré le :  Lun 06 Avril 2015 à 18:08
+-- Généré le :  Lun 06 Avril 2015 à 21:04
 -- Version du serveur :  5.5.42
 -- Version de PHP :  5.6.6
 
@@ -30,7 +30,9 @@ CREATE TABLE `Utilisateur` (
   `id_utilisateur` int(5) NOT NULL,
   `nom` varchar(50) NOT NULL,
   `prenom` varchar(50) NOT NULL,
-  `naissance` datetime NOT NULL,
+  `jour` int(2) NOT NULL,
+  `mois` varchar(9) NOT NULL,
+  `année` int(4) NOT NULL,
   `mail` varchar(100) NOT NULL,
   `adresse` text NOT NULL,
   `ville` varchar(50) NOT NULL,
