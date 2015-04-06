@@ -1,6 +1,5 @@
 .ravancee{
-	position: relative;
-	right: 45px;
+	text-align: center;
 }
 .myformulaire{
 
@@ -54,4 +53,10 @@
 .echange{
 	position: relative;
 	top: 35px;
+}
+.rechercher
+{
+	position: relative;
+	left : 40%;
+	top: 65px;
 }
