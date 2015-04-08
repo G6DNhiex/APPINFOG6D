@@ -1,0 +1,38 @@
+/*
+.seconnecter{
+	margin-left: 20%;
+	margin-top: 5%
+	text-align: justify;
+	
+
+}
+.pasencoreinscrit{
+	float: right;
+	margin-right: 15%;
+	margin-top: -32%
+}
+
+.separation{
+	float: center;
+	margin-top: -13%
+}
+*/
+
+#connexionBloc
+{
+	float:left;
+	width:459px;
+}
+
+#inscriptionBloc
+{
+	float:right;
+	width:449px;
+	border-left:1px dashed black;
+	padding-left:70px;
+}
+
+.clear
+{
+	clear: both;
+}
