@@ -1,9 +1,6 @@
 #corps{
-
 margin-left:120px;
-
 }
-
 #compte-du-futur {
   padding:0;
   margin:0;
@@ -11,31 +8,25 @@ margin-left:120px;
   text-indent: 15px;
   width: 1000px;
   color:black;
-  font-size: 10px;
+  font-size: 15px;
   border:solid 2px black;
-  
-
+  margin-top:50px;
+  font-family: arial;  
 }
 #compte-du-futur ul {
   padding:0;
   margin:0;
-  list-style:none;
-
-  
-  
-  
+  list-style:none;  
 }
 #compte-du-futur li {
    background-color:#FFFFFF; 
-
    border-radius: 1px;
-   margin-bottom:0px;
-   
+   margin-bottom:0px;  
 }
 #compte-du-futur li li {
    max-height:0;
    overflow: hidden;
-   transition: all .7s;
+   -moz-transition:all 1s;
    border-radius:0;
    background: white;
    box-shadow: none;
@@ -46,28 +37,52 @@ margin-left:120px;
   display:block;
   text-decoration: none;
   color: black;
-  padding: 8px 0;
-  
-  font-size:1.2em;
-  border:solid 2px;
- 
+  padding: 8px 0; 
+  border:solid 2px; 
 }
-#compte-du-futur ul li a, #compte-du-futur li:hover li a {
-  font-size:1em;
-  border:none;
-
-   
+#compte-du-futur ul li a, #compte-du-futur li:hover li a { 
+  border:none;   
 }
 #compte-du-futur li:hover {
    background: #FFFFFF;
-
-
-
-}
-#compte-du-futur li li:hover {
-   background: #F0E68C;
-
 }
 #compte-du-futur li:hover li {
-  max-height: 25em;
+  max-height: 15em;
+}
+#modif{
+ -moz-transition: color 2s;
+    color: #6E98B8;
+    font-size: 30px;
+}
+#modif:hover {
+color: #EDA11A;
+}
+#profil{
+float:left;
+}
+#avatar{
+background: fixed;
+}
+#info{
+width: 700px;
+height: 150px;
+border-width:2px;
+border-style:solid ;
+border-color:black;
+margin-left: 50px; 
+}
+#description{
+width:965px;
+height: 100px;
+border-width:2px;
+border-style:solid ;
+border-color:black;
+margin-left: 15px
+}
+#modif {
+  margin-left:600px;
+  font-size: 20px;
+}
+#info {
+  margin-bottom: 50px;
 }
