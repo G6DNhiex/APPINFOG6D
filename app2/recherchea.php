@@ -7,6 +7,7 @@
 </head>
 <?php
 include 'functions.php';
+include 'class.Sql.php' ;
 
 top();
 ?>
