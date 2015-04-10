@@ -86,3 +86,18 @@ margin-left: 15px
 #info {
   margin-bottom: 50px;
 }
+#alerte{
+  padding-left:600px;
+  
+}
+#p{
+width:200px;
+height:50px;
+border-width:2px;
+border-style:solid ;
+border-color:black;
+margin-left: 15px  
+}
+#offre{
+
+}
